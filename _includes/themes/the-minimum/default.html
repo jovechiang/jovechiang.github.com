@@ -11,6 +11,18 @@
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	<script src="http://github.com/javascripts/other/MathJax/MathJax.js"
+	type="text/javascript">
+	    if (window.location.protocol == "https:") {
+	      MathJax.OutputJax.fontDir = "https://github.com/assets/MathJax/fonts"
+	    } else {
+	      MathJax.OutputJax.fontDir = "http://github.com/assets/MathJax/fonts"
+	    }
+	    MathJax.Hub.Config({
+	      extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+	      jax: ["input/TeX", "output/HTML-CSS"]
+	    })
+	  </script>
 </head>
 <body>
 
