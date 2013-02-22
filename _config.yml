@@ -9,7 +9,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jun Jiang $(e^{i\pi}+1=0)$
+title : $e^{i\pi}+1=0$
 tagline: Site Tagline
 author :
   name : Jun Jiang
